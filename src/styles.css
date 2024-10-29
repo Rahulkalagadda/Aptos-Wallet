@@ -1,0 +1,123 @@
+.navbar {
+  background-color: #333;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+/* src/styles.css */
+
+/* Reset some basic styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background-color: #f9fafb; /* Light gray background */
+    font-family: Arial, sans-serif; /* Default font */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full height */
+}
+
+/* Header styles */
+header {
+    background-color: #2563eb; /* Blue color */
+    color: white;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+/* Main content styles */
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container {
+    max-width: 400px; /* Maximum width for the card */
+    width: 100%; /* Full width for smaller screens */
+    background-color: white; /* White background for the card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 32px; /* Inner padding */
+    text-align: center; /* Center text */
+}
+
+/* Typography */
+h1 {
+    font-size: 2rem; /* Size of header */
+}
+
+h2 {
+    font-size: 1.5rem; /* Size of subheader */
+    margin-bottom: 16px; /* Spacing below */
+}
+
+p {
+    color: #4b5563; /* Gray text color */
+    margin-bottom: 24px; /* Spacing below */
+}
+
+/* Button styles */
+button {
+    background-color: #2563eb; /* Blue background */
+    color: white;
+    padding: 12px 24px; /* Padding inside the button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    width: 100%; /* Full width button */
+}
+
+button:hover {
+    background-color: #1d4ed8; /* Darker blue on hover */
+}
+
+/* Features List */
+.features {
+    margin-top: 24px; /* Spacing above */
+}
+
+.features li {
+    margin-bottom: 8px; /* Spacing between items */
+}
+
+/* Input Field Styles */
+.input-field {
+    width: 100%; /* Full width */
+    padding: 12px; /* Padding inside */
+    border: 1px solid #d1d5db; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    outline: none; /* Remove outline */
+    margin-bottom: 16px; /* Spacing below */
+}
+
+/* Card Styles for Transactions */
+.transaction-card {
+    margin-bottom: 16px; /* Spacing between transactions */
+    background-color: #ffffff; /* White background */
+    padding: 16px; /* Padding inside */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Footer styles */
+footer {
+    background-color: #2563eb; /* Blue background */
+    color: white;
+    padding: 16px;
+    text-align: center; /* Center text */
+}

@@ -1,0 +1,19 @@
+{
+  "name": "wallet-frontend",
+  "version": "0.1.0",
+  "type": "module", 
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vite": "^5.4.10"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0",
+    "@vitejs/plugin-react": "^2.0.0" 
+  }
+}
